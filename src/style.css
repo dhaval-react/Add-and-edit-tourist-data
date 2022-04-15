@@ -1,44 +1,45 @@
-*{
-     margin: 0;
-     padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
- body{
-     background-color: #f3f6fb;
+body {
+	background-color: #f3f6fb;
 }
-.actionIcon{
-     cursor: pointer;
+.actionIcon {
+	cursor: pointer;
 }
-.pagination{
-     justify-content: center;
-     margin-top: 20px;
-     margin-bottom: 20px;
+.pagination {
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-.addTouristbtn{
-     text-decoration: none;
+.addTouristbtn {
+	text-decoration: none;
 }
-.addTouristbtn button:hover, .submit:hover{
-     background-color: green;
+.addTouristbtn button:hover,
+.submit:hover {
+	background-color: green;
 }
-.touristDetails{
-     margin: 0;
+.touristDetails {
+	margin: 0;
 }
-.detailsMainWrapper{
-     padding: 15px;
+.detailsMainWrapper {
+	padding: 15px;
 }
-.validate{
-     color: red;
+.validate {
+	color: red;
 }
-.showSpiner{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
+.showSpiner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-.loader-overlay{
-     position: absolute;
-     height: 100%;
-     width: 100%;
-     background-color: rgba(0, 0, 0, 0.22);
-     top: 0;
-     left: 0;
+.loader-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.22);
+	top: 0;
+	left: 0;
 }
